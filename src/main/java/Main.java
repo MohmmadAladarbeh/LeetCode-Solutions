@@ -16,6 +16,13 @@ public class Main {
         System.out.println("<----------------------------------- Climb Stairs ---------------------------------->");
         System.out.println(solution.climbStairs(4));
 
+        System.out.println("<-----------------------------------  Last Word  ---------------------------------->");
+        String lastWord = "world world";
+        System.out.println(lastWord.lastIndexOf(" "));
+        System.out.println(solution.lastWord(lastWord));
+
+
+
 
 
     }
