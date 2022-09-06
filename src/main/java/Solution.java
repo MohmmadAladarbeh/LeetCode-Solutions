@@ -84,4 +84,10 @@ public class Solution {
         return fib;
     }
 
+    // 4) find the length for last word
+    public int lastWord (String s) {
+        String array [] = s.split(" ");
+        return array[array.length-1].length();
+    }
+
 }
